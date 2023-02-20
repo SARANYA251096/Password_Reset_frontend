@@ -71,7 +71,7 @@ const Register = () => {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="mobileNumber">mobileNumber</label>
+        <label htmlFor="mobileNumber">MobileNumber</label>
         <input
           type="text"
           className="form-control"
