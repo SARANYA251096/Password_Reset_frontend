@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import './register.css';
+import "./register.css";
 
 const Register = () => {
   const [userDetails, setUserDetails] = useState({
@@ -71,7 +71,7 @@ const Register = () => {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="mobileNumber">mobileNumber</label>
+        <label htmlFor="mobileNumber">MobileNumber</label>
         <input
           type="text"
           className="form-control"

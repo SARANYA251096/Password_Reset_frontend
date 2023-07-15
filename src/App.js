@@ -9,7 +9,7 @@ import UserContext from "./Context/UserContext";
 import useFindUser from "./Hooks/useFindUser";
 
 import PublicRoutes from "./Routes/PublicRoutes";
-import PrivateRoutes from "./Routes/PrivateRoutes";
+// import PrivateRoutes from "./Routes/PrivateRoutes";
 
 import ForgotPassword from "./Components/ForgotPassword";
 import ResetPassword from "./Components/ResetPassword";
@@ -26,7 +26,6 @@ function App() {
         
         <Routes>
           <Route element={<PublicRoutes />}>
-          
             <Route path="/" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/forgotPassword" element={<ForgotPassword />} />
